@@ -58,6 +58,10 @@ body {
     color: #fff;
 }
 
+.proposta {
+    padding-top: 20px;
+}
+
 .section-index {
     font-family: "Poppins";
     padding: 150px 0 40px 0;
@@ -75,14 +79,14 @@ body {
 }
 
 .text1 {
-    padding: 50px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     justify-content: center;
     text-align: center;
     display: block;
 }
 
 .text2 {
-    padding: 50px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     justify-content: center;
     text-align: center;
     display: block;
