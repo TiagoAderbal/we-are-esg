@@ -136,3 +136,32 @@ body {
     font-family: "Poppins";
     padding-top: 100px  ;
 }
+
+.thank {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    flex-direction: column;
+}
+
+.text_thank {
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: #092647;
+}
+
+.paragraf {
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.btn {
+    font-size: 30px;
+    color: #fff;
+    background: #092647;
+    margin: auto;
+}
