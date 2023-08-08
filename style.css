@@ -60,9 +60,11 @@ body {
 
 .section-index {
     font-family: "Poppins";
-    padding: 150px 0 40px 0;
+    padding: 150px 0 0 0;
+    margin: 0 auto;
     justify-content: center;
-    display: block;
+    align-items: center;
+    display: flex;
 }
 
 .section-index2 {
@@ -82,54 +84,19 @@ body {
     padding: 50px 15px 10px 20px;
     justify-content: center;
     text-align: center;
-    float: right;
     display: block;
-}
-
-.image-web {
-    height: 250px;
 }
 
 .image-web2 {
     height: 250px;
-    float: left;
-    display: flex;
-}
-
-#imgcol {
-    display: flex;
     justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 #icon {
     width: 30px;
-}
-
-.about, .faq {
-    color: #fff;
-    text-decoration: none;
-    padding: 15px;
-    
-}
-
-.location {
-    flex: auto;
-}
-
-.logo-foot {
-    width: 150px;
-}
-
-.footer{
-    font-family: "Poppins";
-    background: #092647;
-    color: #fff; 
-}
-
-.footer-text {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 60px;
 }
 
 .fale_con {
