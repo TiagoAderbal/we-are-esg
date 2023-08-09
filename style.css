@@ -144,7 +144,6 @@ body {
 .imgcol2 {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
 }
 
 #icon {
@@ -208,4 +207,8 @@ body {
     filter: blur(0);
     transform: translateX(0);
     transition: all 1s;
+}
+
+.footer-text {
+    padding-top: 50px;
 }
