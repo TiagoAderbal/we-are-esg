@@ -150,10 +150,13 @@ body {
 
 .fale_con {
     font-family: 'Lato';
-    padding-top: 100px  ;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .thank {
+    font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
     padding-top: 200px;
@@ -165,6 +168,12 @@ body {
     text-align: center;
     font-size: 50px;
     color: #092647;
+}
+
+.thankcs {
+    background-image: url("images/element.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .paragraf {
