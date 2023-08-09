@@ -34,19 +34,46 @@
 
 /* animations */
 
+@font-face {
+    font-family: 'Tungsten';
+    src: url('fonts/Tungsten_Font/@font-face/tugns.woff') format('woff'),
+         url('fonts/Tungsten_Font/@font-face/tungs.eot') format('eot'),
+         url('fonts/Tungsten_Font/@font-face/tungs.woff2') format('woff2'),
+         url('fonts/Tungsten_Font/@font-face/tungst.ttf') format('ttf'),
+         url('fonts/Tungsten_Font/Tungsten-Bold/Tungsten-Bold.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato_Font/Lato2OFL/Lato-BoldItalic.ttf') format('ttf'),
+         url('fonts/Lato_Font/Lato2OFL/Lato-Hairline.ttf') format('ttf'),
+         url('fonts/Lato_Font/Lato2OFL/Lato-HeavyItalic.ttf') format('ttf'),
+         url('fonts/Lato_Font/Lato2OFL/Lato-LightItalic.ttf') format('ttf'),
+         url('fonts/Lato_Font/Lato2OFL/Lato-Medium.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body {
-    background-image: url("images/element.png");
+    /* background-image: url("images/back.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #092647;
 }
 .img {
-    width: 150px;
-    padding-left: 10px;
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 15px;
     padding-bottom: 5px;
 }
 
 #navbar {
-    font-family: "Poppins";
+    font-family: 'Lato', sans-serif;
+    height: 150px;
     text-align: center;
     background: #092647;
     padding-right: 15px;
@@ -58,20 +85,26 @@ body {
     color: #fff;
 }
 
-.proposta {
-    padding-top: 20px;
+.navbar-toggler {
+    color: #f6a250;
+    background: #f6a250;
 }
 
-.section-index {
-    font-family: "Poppins";
+.proposta {
+    font-family: 'Tungsten';
+    font-size: 50px;
+}
+
+.section-index2 {
+    font-family: 'Lato', sans-serif;
     padding: 150px 0 40px 0;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
-.section-index2 {
-    font-family: "Poppins";
+.section-index {
+    font-family: 'Lato', sans-serif;
     padding: 50px 0 30px 0;
     margin: 0 auto;
     justify-content: center;
@@ -81,8 +114,9 @@ body {
 .text1 {
     padding: 20px 20px 10px 20px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     display: block;
+    color: #fff;
 }
 
 .text2 {
@@ -90,6 +124,7 @@ body {
     justify-content: center;
     text-align: center;
     display: block;
+    color: #fff;
 }
 
 .image-web2 {
@@ -114,7 +149,7 @@ body {
 }
 
 .fale_con {
-    font-family: "Poppins";
+    font-family: 'Lato';
     padding-top: 100px  ;
 }
 
