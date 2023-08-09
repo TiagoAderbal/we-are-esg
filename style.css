@@ -1,39 +1,4 @@
- /* @-webkit-keyframes kenburns-top {
-    0% {
-      -webkit-transform: scale(1) translateY(0);
-              transform: scale(1) translateY(0);
-      -webkit-transform-origin: 50% 16%;
-              transform-origin: 50% 16%;
-    }
-    100% {
-      -webkit-transform: scale(1.25) translateY(-15px);
-              transform: scale(1.25) translateY(-15px);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-    }
-  }
-  @keyframes kenburns-top {
-    0% {
-      -webkit-transform: scale(1) translateY(0);
-              transform: scale(1) translateY(0);
-      -webkit-transform-origin: 50% 16%;
-              transform-origin: 50% 16%;
-    }
-    100% {
-      -webkit-transform: scale(1.25) translateY(-15px);
-              transform: scale(1.25) translateY(-15px);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-    }
-  }
-
-  .kenburns-top {
-	-webkit-animation: kenburns-top 5s ease-out both;
-	        animation: kenburns-top 5s ease-out both;
-} */
-
-/* animations */
-
+/* FONTES */
 @font-face {
     font-family: 'Tungsten';
     src: url('fonts/Tungsten_Font/@font-face/tugns.woff') format('woff'),
@@ -46,7 +11,7 @@
     font-style: normal;
   }
   
-  @font-face {
+@font-face {
     font-family: 'Lato';
     src: url('fonts/Lato_Font/Lato2OFL/Lato-BoldItalic.ttf') format('ttf'),
          url('fonts/Lato_Font/Lato2OFL/Lato-Hairline.ttf') format('ttf'),
@@ -58,18 +23,25 @@
     font-style: normal;
   }
 
+/* BACKGROUND BODY */
+
 body {
     /* background-image: url("images/back.jpg");
     background-size: cover;
     background-attachment: fixed; */
     background-color: #092647;
 }
+
+/* LOGO */
+
 .img {
     width: 250px;
     padding-top: 10px;
     padding-left: 15px;
     padding-bottom: 5px;
 }
+
+/* NAVBAR */
 
 #navbar {
     font-family: 'Lato', sans-serif;
@@ -90,9 +62,15 @@ body {
     background: #f6a250;
 }
 
+/* TITLES */
+
 .title {
     font-family: 'Tungsten';
     font-size: 50px;
+}
+
+#proposta {
+    padding-top: 130px;
 }
 
 .section-index2 {
@@ -136,14 +114,6 @@ body {
     color: #fff;
 }
 
-.text2 {
-    padding: 20px 20px 10px 20px;
-    justify-content: center;
-    text-align: left;
-    display: block;
-    color: #fff;
-}
-
 .image-web2 {
     height: 250px;
 }
@@ -164,21 +134,19 @@ body {
 }
 
 .title {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .fale_con {
     font-family: 'Lato';
     color: #fff;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 150px;
 }
 
 .saiba {
     font-family: 'Lato';
     color: #fff;
     padding-top: 150px;
-    padding-bottom: 50px;
 }
 
 .thank {
@@ -233,6 +201,6 @@ body {
     transition: all 1s;
 }
 
-.footer-text {
+/* .footer-text {
     padding-top: 50px;
-}
+} */
