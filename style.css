@@ -90,7 +90,7 @@ body {
     background: #f6a250;
 }
 
-.proposta {
+.title {
     font-family: 'Tungsten';
     font-size: 50px;
 }
@@ -115,6 +115,11 @@ body {
     align-items: center;
 }
 
+.section-row2 {
+    align-items: center;
+    padding-top: 30px;
+}
+
 .text1 {
     padding: 20px 20px 10px 20px;
     justify-content: center;
@@ -127,6 +132,14 @@ body {
     padding: 20px 20px 10px 20px;
     justify-content: center;
     text-align: center;
+    display: block;
+    color: #fff;
+}
+
+.text2 {
+    padding: 20px 20px 10px 20px;
+    justify-content: center;
+    text-align: left;
     display: block;
     color: #fff;
 }
@@ -153,8 +166,14 @@ body {
 .fale_con {
     font-family: 'Lato';
     color: #fff;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 50px;
+}
+
+.fale_con1 {
+    font-family: 'Lato';
+    color: #fff;
+    padding-top: 150px;
 }
 
 .thank {
