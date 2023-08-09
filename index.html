@@ -22,45 +22,115 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse justify-content-end collapse" id="navbarSupportedContent">
-                <a class="nav-item nav-link active" href="index.html">Página Inicial</a>
-                <a class="nav-item nav-link" href="fale_con.html">Fale conosco</a>
+                <a class="nav-item nav-link active" href="#homepage">Página Inicial</a>
+                <a class="nav-item nav-link" href="#saiba">Saiba mais</a>
+                <a class="nav-item nav-link" href="#faq">Fale conosco</a>
             </div>
         </nav>
         <!-- NAVBAR -->
 
         <!-- CONTENT -->
-        <section class="container section-index2">
-            <div class="row section-row">
-                <p class="col-md-5 text2 hidden">
-                    We Are ESG, que em português significa, “Nós Somos ESG”, traduzindo nosso propósito de buscar a
-                    sustentabilidade das Entidades, impactando positivamente no ambiente em que estão inseridas. Nos
-                    juntamos para transformar realidades através de projetos sustentáveis. <br>Nosso foco inicial,
-                    corroborando nossas expertises, é no segmento hospitalar filantrópico. <br><br>A We Are ESG, como o nome já
-                    revela é uma empresa criada por profissionais reconhecidos no mercado. Nosso serviço consiste em
-                    integrar responsabilidade social ao empreendedorismo e, com isso, tornar possível o financiamento e
-                    a concretização de projetos com impactos ambientais, sociais e éticos (ESG) dentro das
-                    instituições filantrópicas.
-                </p>
-                <p class="col-md-3"></p>
-                <div class="col-md-4 imgcol hidden">
-                    <img class="image-web2" src="images/esg1.png">
+        <div id="homepage">
+            <section class="container section-index2">
+                <div class="row section-row">
+                    <p class="col-md-5 text2 hidden">
+                        We Are ESG, que em português significa, “Nós Somos ESG”, traduzindo nosso propósito de buscar a
+                        sustentabilidade das Entidades, impactando positivamente no ambiente em que estão inseridas. Nos
+                        juntamos para transformar realidades através de projetos sustentáveis. <br>Nosso foco inicial,
+                        corroborando nossas expertises, é no segmento hospitalar filantrópico. <br><br>A We Are ESG,
+                        como o nome já
+                        revela é uma empresa criada por profissionais reconhecidos no mercado. Nosso serviço consiste em
+                        integrar responsabilidade social ao empreendedorismo e, com isso, tornar possível o
+                        financiamento e
+                        a concretização de projetos com impactos ambientais, sociais e éticos (ESG) dentro das
+                        instituições filantrópicas.
+                    </p>
+                    <p class="col-md-3"></p>
+                    <div class="col-md-4 imgcol hidden">
+                        <img class="image-web2" src="images/esg1.png">
+                    </div>
                 </div>
+            </section>
+
+            <section class="container section-index">
+                <h1 class="text-center text-white title hidden"><u>Nossa proposta</u></h1>
+                <p class="text1 hidden">
+                    <b>Melhorar a qualidade assistencial através do desenvolvimento estrutural e tecnológico da
+                        Entidade</b>
+                    <br><br>
+                    <b>Captação de recursos obtidos junto a parcerias públicas privadas</b>
+                </p>
+            </section>
+
+            <div class="container imgcol2">
+                <img class="image-web2 hidden" src="images/ods.png">
             </div>
-        </section>
-
-        <section class="container section-index">
-            <h1 class="text-center text-white title hidden"><u>Nossa proposta</u></h1>
-            <p class="text1 hidden">
-                <b>Melhorar a qualidade assistencial através do desenvolvimento estrutural e tecnológico da
-                    Entidade</b>
-                <br><br>
-                <b>Captação de recursos obtidos junto a parcerias públicas privadas</b>
-            </p>
-        </section>
-
-        <div class="container imgcol2">
-            <img class="image-web2 hidden" src="images/ods.png">
         </div>
+
+        <div id="saiba">
+            <section class="container saiba hidden">
+                <h1 class="text-center text-white title"><u>Saiba mais</u></h1>
+                <div class="row section-row2">
+                    <p class="col-md-5 text3 hidden">
+                        Quando falamos em ESG na saúde, devemos lembrar que esse é um setor de serviços essenciais, onde
+                        é
+                        preciso existir resultado financeiro e qualidade de atendimento. <br><br> É justamente por isso
+                        que
+                        Governança Corporativa, Social e Ambiental são vistos como pilares estratégicos de extrema
+                        importância para o setor. Para hospitais filantrópicos , a implementação de
+                        práticas ESG cria processos que irão gerar impacto como diminuição de gastos, melhoria de
+                        atendimento, além da significativa melhora da imagem
+                        institucional. Em contrapartida, essas instituições, tornam-se mais atraentes para investidores
+                        e parceiros, devido
+                        ao grau de confiança obtido. <br><br><br>
+
+                        <b>Quer saber tudo sobre ESG e como nós da We Are podemos ajudar a sua instituição?
+                            Agende uma reunião...</b>
+                    </p>
+                    <p class="col-md-3"></p>
+                    <div class="col-md-4 imgcol hidden">
+                        <img class="image-web2" src="images/esg_hand.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="container fale_con hidden">
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+                <h1 class="text-center text-white title" id="faq"><u>Fale conosco</u></h1>
+                <div class="form-group hidden">
+                    <label for="exampleInputName">Nome</label>
+                    <input class="form-control" id="exampleInputName" aria-describedby="nameHelp"
+                        placeholder="Seu nome..." name="name" required>
+                </div>
+                <br>
+                <div class="form-group hidden">
+                    <label for="exampleInputEmail">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
+                        placeholder="Seu email..." name="email" required>
+                </div>
+                <br>
+                <div class="form-group hidden">
+                    <label for="exampleInputTel">Telefone</label>
+                    <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="telHelp"
+                        placeholder="(xx)xxxxx-xxxx" name="phone" required>
+                </div>
+                <br><br>
+                <div class="form-group hidden">
+                    <label for="exampleFormControlTextarea1">Deixe sua mensagem:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Digite sua mensagem..." name="message" required></textarea>
+                </div>
+                <br>
+                <button type="submit" name="enviar" class="btn btn-primary hidden">Enviar</button>
+
+                <input type="hidden" name="redirectTo" value="https://tiagoaderbal.github.io/we-are-esg/thank.html">
+                <input type="hidden" name="accessKey" value="ff2664ed-22ed-4605-8a15-c325a9591005">
+            </form>
+        </section>
+
+
         <!-- CONTENT -->
 
         <div class="footer-text text-center text-white">

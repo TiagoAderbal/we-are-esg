@@ -163,17 +163,22 @@ body {
     width: 30px;
 }
 
+.title {
+    padding-bottom: 40px;
+}
+
 .fale_con {
     font-family: 'Lato';
     color: #fff;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.fale_con1 {
+.saiba {
     font-family: 'Lato';
     color: #fff;
     padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .thank {
